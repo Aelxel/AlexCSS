@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+@font-face {
+    font-family: 'MorePerfectDOSVGA';
+    src: url('https://cdn.jsdelivr.net/gh/Aelxel/AlexCSS/ibm_vga8.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+[data-author-id="409406768553394177"] {
+    [class*="header_c19a55"] {
+        color: #ffb4c7 !important;
+        font-family: 'Pixelify Sans';
+        letter-spacing: 3px;
+        font-weight: bold;
+        filter: drop-shadow(-1px 0px rgba(255, 0, 0, 0.37)) drop-shadow(1px 0px rgba(0, 4, 255, 0.37));
+    }
+
+    [class*="messageContent_c19a55"]::before {
+        content: "::>  ";
+    }
+
+    [class*="messageContent_c19a55"] {
+        font-family: 'MorePerfectDOSVGA', monospace;
+        font-weight: 400;
+        font-size: 17px;
+        font-style: normal;
+        letter-spacing: 1px;
+        color: #ffc7d5;
+
+
+    }
+
+    [class*="message__5126c"] {
+        background: linear-gradient(to left, hsla(0, 0%, 100%, 0.178), #ff8fba23);
+        background-color: rgba(255, 0, 128, 0.103);
+        margin: 12px;
+        border-radius: 50px;
+        border: 2px solid #ffffff50;
+    }
+}
