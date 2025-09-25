@@ -41,41 +41,19 @@
         object-fit: cover;
     }
 
-    [class*="message__5126c"] {
-        border-radius: 0px 0px 0px 0px;
+     [class*="message__5126c"] {
+        background: linear-gradient(to left, hsla(46, 80%, 63%, 0.178), #ff338123);
+        background-color: rgba(255, 0, 128, 0.103);
+        margin: 12px;
+        border-radius: 5px 5px 5px 5px;
     }
 }
 
 /* first */
 :not([data-author-id="180761522706972672"])+[data-author-id="180761522706972672"] {
     [class*="message__5126c"] {
-        border-radius: 5px 55px 0px 0px;
+        min-height: 60px;
     }
-}
-
-/* last */
-[data-author-id="180761522706972672"]:has(+ :not([data-author-id="180761522706972672"])) {
-    [class*="message__5126c"] {
-        border-radius: 0px 0px 5px 55px;
-    }
-}
-
-/* first and last */
-[data-author-id="180761522706972672"]:has(+ :not([data-author-id="180761522706972672"]))[data-author-id="180761522706972672"]:has([class*="avatar_c19a55"]) {
-    [class*="message__5126c"] {
-        border-radius: 5px 55px 5px 55px;
-        min-height: 55px;
-    }
-
-    [class*="message__5126c"] [class*="avatar_c19a55"] {
-        width: 50px;
-        height: 50px;
-        top: 2px;
-        left: 5px;
-        border-radius: 5px 55px 5px 55px;
-        object-fit: cover;
-    }
-
 }
 
 @keyframes alex-gradient-anim {
