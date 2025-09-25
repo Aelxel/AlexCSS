@@ -1,0 +1,117 @@
+/* Alex */
+[data-author-id="180761522706972672"] {
+
+    [class*="username_c19a55"]::before {
+        content: "Rhubarb ";
+        color: hsl(46, 80%, 63%) !important;
+        text-shadow: -2px 0px 2px rgba(251, 255, 0, 0.37);
+    }
+
+    [class*="username_c19a55"]::after {
+        content: " Custard";
+        color: #ff3381 !important;
+        text-shadow: -2px 0px 2px rgba(255, 54, 155, 0.685)
+    }
+
+    [class*="username_c19a55"] {
+        /* background: linear-gradient(to right, hsl(46, 80%, 63%), #ff3381); */
+        background:  hsl(0, 0%, 100%);
+        background-size: 200% auto;
+        color: transparent !important;
+        -webkit-background-clip: text;
+        background-clip: text;
+        animation: alex-gradient-anim 3s linear infinite;
+        font-family: 'JetBrains Mono';
+        letter-spacing: 3px;
+        font-weight: bold;
+        text-shadow: -2px 0px 2px rgba(255, 255, 255, 0.452)
+    }
+
+    [class*="messageContent_c19a55"] {
+        font-family: 'JetBrains Mono';
+        font-size: 14.5px;
+        color: #ff698f;
+        text-shadow: -2px 0px 2px rgba(255, 0, 0, 0.37), 2px 0px 2px rgba(0, 4, 255, 0.37);
+
+    }
+
+    [class*="timestamp_c19a55"] {
+        color: rgba(255, 128, 187, 0.5);
+    }
+
+    [class*="message__5126c"] {
+        background: linear-gradient(to left, hsla(46, 80%, 63%, 0.178), #ff338123);
+        background-color: rgba(255, 0, 128, 0.103);
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+
+    [class*="message__5126c"] [class*="avatar_c19a55"] {
+        width: 50px;
+        height: 50px;
+        top: 5%;
+        left: 5px;
+        border-radius: 5px 55px 5px 55px;
+        object-fit: cover;
+        box-shadow: -1px 0px 2px rgba(255, 0, 0, 0.37), 1px 0px 2px rgba(0, 4, 255, 0.37);
+    }
+
+    [class*="message__5126c"] {
+        border-radius: 0px 0px 0px 0px;
+    }
+}
+
+/* first */
+:not([data-author-id="180761522706972672"])+[data-author-id="180761522706972672"] {
+    [class*="message__5126c"] {
+        border-radius: 5px 55px 0px 0px;
+    }
+}
+
+/* last */
+[data-author-id="180761522706972672"]:has(+ :not([data-author-id="180761522706972672"])) {
+    [class*="message__5126c"] {
+        border-radius: 0px 0px 5px 55px;
+    }
+}
+
+/* last */
+[data-author-id="180761522706972672"]:has(+ :not([data-author-id="180761522706972672"]))[data-author-id="180761522706972672"]:has([class*="avatar_c19a55"]) {
+    [class*="message__5126c"] {
+        border-radius: 5px 55px 5px 55px;
+        min-height: 55px;
+    }
+
+    [class*="message__5126c"] [class*="avatar_c19a55"] {
+        width: 50px;
+        height: 50px;
+        top: 2px;
+        left: 5px;
+        border-radius: 5px 55px 5px 55px;
+        object-fit: cover;
+    }
+
+}
+
+@keyframes alex-gradient-anim {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 100% 100%;
+    }
+
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
