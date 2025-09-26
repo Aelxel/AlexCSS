@@ -25,7 +25,7 @@
         color: rgba(255, 128, 187, 0.5);
     }
 
-    [class="message__"] {
+    [class*="message__"] {
         background: linear-gradient(to left, hsla(46, 80%, 63%, 0.178), #ff338123);
         background-color: rgba(255, 0, 128, 0.103);
         margin-left: 12px;
