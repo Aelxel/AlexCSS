@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+    --mossborder: rgb(36, 7, 73);
+    --mossBG: hsl(0, 0%, 0%);
+    --mossTEXT1: hsl(246, 56%, 53%);
+    --mossTEXT2: hsl(194, 100%, 50%);
+    --mossSHADOW1: rgba(72, 0, 241, 0.459);
+    --mossSHADOW2: rgba(49, 68, 236, 0.479);
+    --mossGRADIENT: linear-gradient(to right, hsl(268, 82%, 52%), #8106a7);
+    --mosssSMALL: rgb(68, 0, 255);
+}
+
+
+li[data-author-id="418858183692648465"] small {
+    font-size: 8px !important;
+    color: var(--mosssSMALL) !important;
+
+}
+
+li[data-author-id="418858183692648465"] {
+    .username_c19a55 {
+        color: rgb(191, 142, 255) !important;
+        font-weight: bold;
+    }
+
+    .contents_c19a55 .username_c19a55 {
+        /* background: linear-gradient(to right, hsl(261, 46%, 42%), #180050); */
+        background: var(--mossGRADIENT);
+        color: transparent !important;
+        -webkit-background-clip: text;
+        background-clip: text;
+        letter-spacing: 3px;
+        font-weight: bold;
+        font-family: 'philosopher';
+        filter: blur(0.7px)
+    }
+
+    .header_c19a55 {
+        filter: blur(0.4px) drop-shadow(-1px 1px var(--mossSHADOW2)) drop-shadow(1px 1px var(--mossSHADOW2));
+
+    }
+
+    .message__5126c {
+        background-color: var(--mossBG);
+        border-radius: 0px 0px 0px 0px;
+        margin: 0 2px 0 2px;
+        border-left: 4px double var(--mossborder);
+        border-right: 4px double var(--mossborder);
+    }
+
+    /*msg*/
+    .messageContent_c19a55 {
+        color: var(--mossTEXT1) !important;
+        background-size: 100%, 200%;
+        background-attachment: fixed;
+
+        font-size: 13px;
+        font-style: normal;
+        font-weight: bold;
+        font-family: 'philosopher';
+        letter-spacing: 0px;
+        text-shadow: 0px 0px 2px var(--mossSHADOW1);
+    }
+
+    .messageContent_c19a55::after {
+        background: transparent !important;
+        color: transparent !important;
+        font-family: 'philosopher';
+        font-weight: bold;
+
+        content: '  meow';
+        font-size: 13px;
+        line-height: 0px;
+        text-shadow: -1px 1px 1.7px var(--mossSHADOW2);
+    }
+
+    .message__5126c .avatar_c19a55 {
+        top: 5%;
+        left: 5px;
+        border-radius: 0px;
+        border: var(--mossborder) solid 2px;
+    }
+
+}
+
+/* last message */
+[data-author-id="418858183692648465"]:has(+*>.groupStart__5126c, +:not([data-author-id])) {
+    [class*="message__5126c"] {
+        border-bottom: 4px double var(--mossborder);
+        margin-bottom: 4px;
+        padding-bottom: 5px;
+    }
+}
+
+
+/* first message */
+[data-author-id="418858183692648465"]:has(>.groupStart__5126c) {
+    [class*="message__5126c"] {
+        border-top: 4px double var(--mossborder);
+        margin-top: 15px;
+    }
+}
+
+@keyframes moss-gradient-anim {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: -2048px -1024px, -512px -512px, 0 0;
+    }
+}
