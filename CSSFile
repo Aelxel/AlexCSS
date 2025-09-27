@@ -1,11 +1,16 @@
 /* Alex */
 [data-author-id="180761522706972672"] {
-    .username_c19a55 {
-        background: linear-gradient(to right, hsl(46, 73%, 71%), #ff3381);
+    .username_c19a55
+    {
+        color: rgb(240, 92, 129) !important;
+        font-weight: bold;
+    }
+    .contents_c19a55 .username_c19a55  {
+        background: linear-gradient(40deg, hsl(46, 73%, 71%), #ff3381, hsl(46, 73%, 71%));
         color: transparent !important;
         -webkit-background-clip: text;
         background-clip: text;
-        animation: alex-gradient-anim 3s linear infinite;
+        animation: alex-gradient-anim 60s linear infinite;
         font-family: 'JetBrains Mono';
         letter-spacing: 3px;
         font-weight: bold;
@@ -16,9 +21,7 @@
         font-family: 'JetBrains Mono';
         font-size: 14.5px;
         color: #ff698f;
-
         filter: drop-shadow(-1px 0px rgba(255, 0, 0, 0.37)) drop-shadow(1px 0px rgba(0, 4, 255, 0.37));
-
     }
 
     .timestamp_c19a55 {
@@ -26,7 +29,6 @@
     }
 
     .message__5126c {
-        background: linear-gradient(to left, hsla(46, 80%, 63%, 0.178), #ff338123);
         background-color: rgba(255, 0, 128, 0.103);
         margin-left: 10px;
         margin-right: 10px;
@@ -60,28 +62,27 @@
 
 /*first and last message*/
 [data-author-id="180761522706972672"]:has(+*>.groupStart__5126c, +:not([data-author-id]))[data-author-id="180761522706972672"]:has(>.groupStart__5126c) {
-        [class*="message__"] {
-            min-height: 55px;
-        }
+    [class*="message__"] {
+        min-height: 55px;
+    }
+}
+
+@keyframes alex-gradient-anim {
+
+    0% {
+        background-position: 0 0;
     }
 
-    @keyframes alex-gradient-anim {
-
-        0%,
-        100% {
-            background-position: 0% 0%;
-        }
-
-        50% {
-            background-position: 00% 0%;
-        }
+    100% {
+        background-position: -2048px -1024px, -512px -512px, 0 0;
     }
+}
 
-    @font-face {
-        font-family: 'JetBrains Mono';
-        src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
-            url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff') format('woff');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
+        url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
