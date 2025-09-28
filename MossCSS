@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
-    --mossborder: rgb(36, 7, 73);
-    --mossBG: hsl(0, 0%, 0%);
+    --mossborder: rgb(62, 8, 133);
+    --mossBG: hsl(280, 100%, 1%);
     --mossTEXT1: hsl(246, 56%, 53%);
     --mossTEXT2: hsl(194, 100%, 50%);
     --mossSHADOW1: rgba(72, 0, 241, 0.459);
@@ -25,7 +25,6 @@ li[data-author-id="418858183692648465"] {
     }
 
     .contents_c19a55 .username_c19a55 {
-        /* background: linear-gradient(to right, hsl(261, 46%, 42%), #180050); */
         background: var(--mossGRADIENT);
         color: transparent !important;
         -webkit-background-clip: text;
@@ -37,7 +36,7 @@ li[data-author-id="418858183692648465"] {
     }
 
     .header_c19a55 {
-        filter: blur(0.4px) drop-shadow(-1px 1px var(--mossSHADOW2)) drop-shadow(1px 1px var(--mossSHADOW2));
+        filter: drop-shadow(-1px 1px var(--mossSHADOW2));
 
     }
 
@@ -45,19 +44,23 @@ li[data-author-id="418858183692648465"] {
         background-color: var(--mossBG);
         border-radius: 0px 0px 0px 0px;
         margin: 0 2px 0 2px;
-        border-left: 4px double var(--mossborder);
-        border-right: 4px double var(--mossborder);
+        border-left: 4px solid var(--mossborder);
+        border-right: 4px solid var(--mossborder);
+
+        background-repeat:  no-repeat,repeast;
+        background-position-x: 98.5%;
+        background-attachment: local,fixed;
+        background-size: 100%, 10%;
+
+        background-image: linear-gradient(to right,hsla(276, 100%, 1%, 1) 87%,  hsla(276, 100%, 1%, 0.253) 100%),
+        url('https://i.ibb.co/cXgVkxxf/eyes.png');
+        /* background-image: url('https://i.ibb.co/mrGxRRWy/Illustration.png');  */
     }
 
     /*msg*/
     .messageContent_c19a55 {
         color: var(--mossTEXT1) !important;
-        background-size: 100%, 200%;
-        background-attachment: fixed;
-
-        font-size: 13px;
-        font-style: normal;
-        font-weight: bold;
+        font-size: 14px;
         font-family: 'philosopher';
         letter-spacing: 0px;
         text-shadow: 0px 0px 2px var(--mossSHADOW1);
@@ -78,8 +81,7 @@ li[data-author-id="418858183692648465"] {
     .message__5126c .avatar_c19a55 {
         top: 5%;
         left: 5px;
-        border-radius: 0px;
-        border: var(--mossborder) solid 2px;
+        border-radius: 5px;
     }
 
 }
@@ -87,7 +89,7 @@ li[data-author-id="418858183692648465"] {
 /* last message */
 [data-author-id="418858183692648465"]:has(+*>.groupStart__5126c, +:not([data-author-id])) {
     [class*="message__5126c"] {
-        border-bottom: 4px double var(--mossborder);
+        border-bottom: 4px solid var(--mossborder);
         margin-bottom: 4px;
         padding-bottom: 5px;
     }
@@ -97,8 +99,9 @@ li[data-author-id="418858183692648465"] {
 /* first message */
 [data-author-id="418858183692648465"]:has(>.groupStart__5126c) {
     [class*="message__5126c"] {
-        border-top: 4px double var(--mossborder);
+        border-top: 4px solid var(--mossborder);
         margin-top: 15px;
+
     }
 }
 
