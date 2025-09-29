@@ -21,7 +21,7 @@
         font-family: 'JetBrains Mono';
         font-size: 14.5px;
         color: #ff698f;
-        filter: drop-shadow(-1px 0px rgba(255, 0, 0, 0.37)) drop-shadow(1px 0px rgba(0, 4, 255, 0.37));
+        filter: drop-shadow(-1px 0px rgba(255, 0, 0, 0.37));
     }
 
     .timestamp_c19a55 {
