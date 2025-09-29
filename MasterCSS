@@ -1,8 +1,8 @@
-@import url(https://keetavir.neocities.org/keeta-vencordstyle.css)
-@import url(https://critta.neocities.org/assets/ext/nova.css)
-@import url(https://tabbykat1.neocities.org/tabby.css)
-@import url(https://raw.githubusercontent.com/Aelxel/FwaCSS/refs/heads/main/Style)
-@import url(https://snailsonline.neocities.org/asnail.css)
-@import url(https://raw.githubusercontent.com/Aelxel/AlexCSS/refs/heads/main/CSSFile)
-@import url(https://braxiations.neocities.org/braxiCSS.css)
-@import url(https://raw.githubusercontent.com/Aelxel/AlexCSS/refs/heads/main/MossCSS)
+@import url(https://keetavir.neocities.org/keeta-vencordstyle.css);
+@import url(https://critta.neocities.org/assets/ext/nova.css);
+@import url(https://tabbykat1.neocities.org/tabby.css);
+@import url(https://raw.githubusercontent.com/Aelxel/FwaCSS/refs/heads/main/Style);
+@import url(https://snailsonline.neocities.org/asnail.css);
+@import url(https://raw.githubusercontent.com/Aelxel/AlexCSS/refs/heads/main/CSSFile);
+@import url(https://braxiations.neocities.org/braxiCSS.css);
+@import url(https://raw.githubusercontent.com/Aelxel/AlexCSS/refs/heads/main/MossCSS);
