@@ -13,7 +13,6 @@
         font-family: 'JetBrains Mono';
         letter-spacing: 3px;
         font-weight: bold;
-        text-shadow: -1px 0px rgba(255, 0, 0, 0.37);
     }
 
     .messageContent_c19a55 {
