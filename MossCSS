@@ -34,21 +34,21 @@ li[data-author-id="418858183692648465"] {
         font-family: 'philosopher';
     }
 
-    .timestamp_c19a55{
-                color: #8106a7 !important;
+    .timestamp_c19a55 {
+        color: #8106a7 !important;
     }
 
     .message__5126c {
         background-color: var(--mossBG);
         border-radius: 0px 0px 0px 0px;
 
-        background-repeat:  no-repeat,repeast;
+        background-repeat: no-repeat, repeat;
         background-position-x: 99%;
-        background-attachment: local,fixed;
+        background-attachment: local, fixed;
         background-size: 100%, 10%;
 
-        background-image: linear-gradient(to right,hsla(276, 100%, 1%, 1) 87%,  hsla(276, 100%, 1%, 0.253) 100%),
-        url('https://i.ibb.co/cXgVkxxf/eyes.png');
+        background-image: linear-gradient(to right, hsla(276, 100%, 1%, 1) 87%, hsla(276, 100%, 1%, 0.253) 100%),
+            url('https://i.ibb.co/cXgVkxxf/eyes.png');
         /* background-image: url('https://i.ibb.co/mrGxRRWy/Illustration.png');  */
     }
 
@@ -78,6 +78,16 @@ li[data-author-id="418858183692648465"] {
         border-radius: 5px;
     }
 
+    .message__5126c.selected__5126c,
+    .message__5126c:hover {
+        background-color: var(--mossBG) !important;
+        background-position-x: 99% !important;
+        background-attachment: local, fixed !important;
+        background-size: 100%, 10% !important;
+        
+        background-image: linear-gradient(to right, rgb(29, 1, 48) 87%, rgba(29, 1, 48, 0.253) 100%),
+            url('https://i.ibb.co/cXgVkxxf/eyes.png') !important;
+    }
 }
 
 @keyframes moss-gradient-anim {
@@ -89,4 +99,3 @@ li[data-author-id="418858183692648465"] {
         background-position: -2048px -1024px, -512px -512px, 0 0;
     }
 }
-
