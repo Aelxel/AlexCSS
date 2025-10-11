@@ -33,9 +33,6 @@
     }
 
     .message__5126c .avatar_c19a55 {
-        width: 50px;
-        height: 50px;
-        top: 5%;
         left: 5px;
         border-radius: 5px 55px 5px 55px;
     }
@@ -57,12 +54,6 @@
     }
 }
 
-/*first and last message*/
-[data-author-id="180761522706972672"]:has(+*>.groupStart__5126c, +:not([data-author-id]))[data-author-id="180761522706972672"]:has(>.groupStart__5126c) {
-    [class*="message__"] {
-        min-height: 55px;
-    }
-}
 
 @font-face {
     font-family: 'JetBrains Mono';
