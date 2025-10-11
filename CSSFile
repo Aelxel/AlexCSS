@@ -1,24 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
+
 /* Alex */
 [data-author-id="180761522706972672"] {
-    .username_c19a55
-    {
+    .username_c19a55 {
         color: rgb(240, 92, 129) !important;
         font-weight: bold;
     }
-    .contents_c19a55 .username_c19a55  {
+
+    .contents_c19a55 .username_c19a55 {
         background: linear-gradient(40deg, hsl(46, 73%, 71%), #ff3381, hsl(46, 73%, 71%));
         color: transparent !important;
         -webkit-background-clip: text;
         background-clip: text;
         font-family: 'JetBrains Mono';
-        letter-spacing: 3px;
-        font-weight: bold;
+        letter-spacing: 1px;
+        font-size: 17px;
+        font-weight: 300;
     }
 
+
     .messageContent_c19a55 {
-        font-family: 'JetBrains Mono';
         font-size: 14.5px;
+        font-family: 'JetBrains Mono';
+        font-weight: 400;
+        line-height: 20px;
         color: #ff698f;
+
+        h1,
+        h2,
+        small {
+            color: #ff698f;
+        }
+
+        h1 {
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 30px;
+        }
+
+        h2 {
+            font-weight: 300;
+            font-size: 30px;
+            line-height: 14px;
+        }
+
+        small {
+            color: #ff698fd8;
+            font-weight: 800;
+            font-size: 12px;
+            text-shadow: 1px 1px #ff002b38;
+        }
+
+        code[class*="inline"] {
+        display: inline-block;
+        }
+        code {
+            box-shadow: 2px 2px rgba(0, 0, 0, 0.336);
+            border: 1px rgba(209, 112, 144, 0.288) solid;
+        }
+    }
+
+    .repliedTextPreview_c19a55 {
+        color: #c94d6ca9;
+        font-size: 12px;
     }
 
     .timestamp_c19a55 {
@@ -29,13 +73,27 @@
         background-color: rgba(255, 0, 128, 0.103);
         margin-left: 10px;
         margin-right: 10px;
+        padding-bottom: 3px;
         border-radius: 0px 0px 0px 0px;
+    }
+
+    .message__5126c.selected__5126c,
+    .message__5126c:hover {
+        background-color: rgba(255, 90, 172, 0.103) !important;
     }
 
     .message__5126c .avatar_c19a55 {
         left: 5px;
         border-radius: 5px 55px 5px 55px;
     }
+
+    .spoilerContent__54ab5 {
+        color: #ff698f;
+        font-weight: normal;
+        padding: 3px 5px;
+        background-color: #8f2246;
+    }
+
 }
 
 /* last message */
@@ -53,14 +111,3 @@
         border-top-right-radius: 55px;
     }
 }
-
-
-@font-face {
-    font-family: 'JetBrains Mono';
-    src: url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff2/JetBrainsMono-Medium.woff2') format('woff2'),
-        url('https://cdn.jsdelivr.net/gh/JetBrains/JetBrainsMono/web/woff/JetBrainsMono-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
