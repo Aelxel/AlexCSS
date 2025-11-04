@@ -20,7 +20,7 @@
     }
 
     .contents_c19a55 .username_c19a55 {
-        background: linear-gradient(40deg, hsl(133, 100%, 65%), #9aff86, hsl(133, 100%, 65%)) !important;
+        background: linear-gradient(40deg, hsl(165, 100%, 65%), #76f587, hsl(162, 100%, 65%)) !important;
         color: transparent !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
@@ -84,7 +84,7 @@
 
     .message__5126c {
 
-        background: linear-gradient(40deg, hsla(143, 100%, 65%, 0.185), #ff46ac28) !important;
+        background: linear-gradient(90deg, hsla(170, 100%, 65%, 0.274), #ff46ac28) !important;
         margin-left: 10px;
         margin-right: 10px;
         padding-bottom: 3px;
