@@ -1,22 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
+
 /* Alex */
 [data-author-id="180761522706972672"] {
     .username_c19a55 {
-        color: rgb(240, 92, 129) !important;
+        color: rgb(100, 228, 128) !important;
         font-weight: bold;
     }
 
+    .username_c19a55 :not(showEffect_dfb989) {
+        background: linear-gradient(40deg, hsl(133, 100%, 65%), #ff3381, hsl(133, 100%, 65%)) !important;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        font-family: 'JetBrains Mono' !important;
+        letter-spacing: 1px !important;
+        font-size: 17px !important;
+        font-weight: 300 !important;
+    }
+
     .contents_c19a55 .username_c19a55 {
-        background: linear-gradient(40deg, hsl(46, 73%, 71%), #ff3381, hsl(46, 73%, 71%));
+        background: linear-gradient(40deg, hsl(133, 100%, 65%), #9aff86, hsl(133, 100%, 65%)) !important;
         color: transparent !important;
-        -webkit-background-clip: text;
-        background-clip: text;
-        font-family: 'JetBrains Mono';
-        letter-spacing: 1px;
-        font-size: 17px;
-        font-weight: 300;
+        -webkit-background-clip: text !important;
+        background-clip: text !important;
+        font-family: 'JetBrains Mono' !important;
+        letter-spacing: 1px !important;
+        font-size: 17px !important;
+        font-weight: 300 !important;
     }
 
 
@@ -25,12 +36,12 @@
         font-family: 'JetBrains Mono';
         font-weight: 400;
         line-height: 20px;
-        color: #ff698f;
+        color: #3ddd85ce;
 
         h1,
         h2,
         small {
-            color: #ff698f;
+            color: #3ddd85ce;
         }
 
         h1 {
@@ -53,8 +64,9 @@
         }
 
         code[class*="inline"] {
-        display: inline-block;
+            display: inline-block;
         }
+
         code {
             box-shadow: 2px 2px rgba(0, 0, 0, 0.336);
             border: 1px rgba(209, 112, 144, 0.288) solid;
@@ -62,16 +74,17 @@
     }
 
     .repliedTextPreview_c19a55 {
-        color: #c94d6ca9;
+        color: #3ddd8579;
         font-size: 12px;
     }
 
     .timestamp_c19a55 {
-        color: rgba(255, 128, 187, 0.5);
+        color: rgba(128, 255, 213, 0.5);
     }
 
     .message__5126c {
-        background-color: rgba(255, 0, 128, 0.103);
+
+        background: linear-gradient(40deg, hsla(143, 100%, 65%, 0.185), #ff46ac28) !important;
         margin-left: 10px;
         margin-right: 10px;
         padding-bottom: 3px;
