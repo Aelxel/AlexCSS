@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
 
 
+
 /* Alex */
 [data-author-id="180761522706972672"] {
     .username_c19a55 {
@@ -10,7 +11,7 @@
     }
 
     .username_c19a55 :not(showEffect_dfb989) {
-        background: linear-gradient(40deg, hsl(56, 100%, 77%), #ff3381, hsl(56, 100%, 77%)) !important;
+        background: linear-gradient(40deg, hsl(56, 100%, 83%), #ff7daf, hsl(56, 100%, 84%)) !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
         font-family: 'JetBrains Mono' !important;
@@ -20,7 +21,7 @@
     }
 
     .contents_c19a55 .username_c19a55 {
-        background: linear-gradient(40deg, hsl(56, 100%, 77%), #ff3381, hsl(56, 100%, 77%)) !important;
+        background: linear-gradient(40deg, hsl(56, 100%, 85%), #ff3381, hsl(56, 100%, 85%)) !important;
         color: transparent !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
@@ -36,12 +37,12 @@
         font-family: 'JetBrains Mono';
         font-weight: 400;
         line-height: 20px;
-        color: #e02b67ce;
+        color: #ff79a6ce;
 
         h1,
         h2,
         small {
-            color: #e02b67ce;
+            color: #ff79a6ce;
         }
 
         h1 {
@@ -84,7 +85,7 @@
 
     .message__5126c {
 
-        background: linear-gradient(90deg, hsla(54, 100%, 65%, 0.274), #ff46ac28) !important;
+        background: linear-gradient(90deg, hsla(54, 100%, 75%, 0.274), #ff469c28) !important;
         margin-left: 10px;
         margin-right: 10px;
         padding-bottom: 3px;
