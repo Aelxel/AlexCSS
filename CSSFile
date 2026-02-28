@@ -10,7 +10,7 @@
     }
 
     .username_c19a55 :not(showEffect_dfb989) {
-        background: linear-gradient(40deg, hsl(133, 100%, 65%), #ff3381, hsl(133, 100%, 65%)) !important;
+        background: linear-gradient(40deg, hsl(56, 100%, 77%), #ff3381, hsl(56, 100%, 77%)) !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
         font-family: 'JetBrains Mono' !important;
@@ -20,7 +20,7 @@
     }
 
     .contents_c19a55 .username_c19a55 {
-        background: linear-gradient(40deg, hsl(165, 100%, 65%), #76f587, hsl(162, 100%, 65%)) !important;
+        background: linear-gradient(40deg, hsl(56, 100%, 77%), #76f587, hsl(56, 100%, 77%)) !important;
         color: transparent !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
@@ -36,12 +36,12 @@
         font-family: 'JetBrains Mono';
         font-weight: 400;
         line-height: 20px;
-        color: #3ddd85ce;
+        color: #ddb83dce;
 
         h1,
         h2,
         small {
-            color: #3ddd85ce;
+            color: #ddb83dce;
         }
 
         h1 {
@@ -74,17 +74,17 @@
     }
 
     .repliedTextPreview_c19a55 {
-        color: #3ddd8579;
+        color: #ddc53d79;
         font-size: 12px;
     }
 
     .timestamp_c19a55 {
-        color: rgba(128, 255, 213, 0.5);
+        color: rgba(253, 255, 128, 0.5);
     }
 
     .message__5126c {
 
-        background: linear-gradient(90deg, hsla(170, 100%, 65%, 0.274), #ff46ac28) !important;
+        background: linear-gradient(90deg, hsla(54, 100%, 65%, 0.274), #ff46ac28) !important;
         margin-left: 10px;
         margin-right: 10px;
         padding-bottom: 3px;
