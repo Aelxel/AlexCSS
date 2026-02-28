@@ -20,7 +20,7 @@
     }
 
     .contents_c19a55 .username_c19a55 {
-        background: linear-gradient(40deg, hsl(56, 100%, 77%), #76f587, hsl(56, 100%, 77%)) !important;
+        background: linear-gradient(40deg, hsl(56, 100%, 77%), #ff3381, hsl(56, 100%, 77%)) !important;
         color: transparent !important;
         -webkit-background-clip: text !important;
         background-clip: text !important;
@@ -36,12 +36,12 @@
         font-family: 'JetBrains Mono';
         font-weight: 400;
         line-height: 20px;
-        color: #ddb83dce;
+        color: #e02b67ce;
 
         h1,
         h2,
         small {
-            color: #ddb83dce;
+            color: #e02b67ce;
         }
 
         h1 {
@@ -74,7 +74,7 @@
     }
 
     .repliedTextPreview_c19a55 {
-        color: #ddc53d79;
+        color: #dadd3d79;
         font-size: 12px;
     }
 
@@ -96,7 +96,10 @@
         background-color: rgba(255, 90, 172, 0.103) !important;
     }
 
-
+    /* .message__5126c .avatar_c19a55 {
+        left: 5px;
+        border-radius: 5px 55px 5px 55px;
+    } */
 
     .spoilerContent__54ab5 {
         color: #ff698f;
